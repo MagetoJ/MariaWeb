@@ -55,6 +55,7 @@ const eventTypes = [
   },
 ]
 
+
 const upcomingEvents = [
   {
     title: "Acoustic Evening with John Doe",
