@@ -202,6 +202,7 @@ export default function EventsPage() {
             </div>
           </div>
         </section>
+        
 
         {/* Upcoming Events */}
         <section id="upcoming-events" className="py-20 bg-background">
