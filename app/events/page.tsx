@@ -78,6 +78,7 @@ const upcomingEvents = [
   },
 ]
 
+
 const galleryImages = [
   "/gallery1.jpg",
   "/gallery2.jpg",
