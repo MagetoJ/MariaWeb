@@ -160,6 +160,8 @@ export default function EventsPage() {
           </div>
         </section>
 
+        
+
         {/* Event Types */}
         <section className="py-20 bg-muted">
           <div className="max-w-7xl mx-auto px-6">
