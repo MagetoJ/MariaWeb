@@ -253,6 +253,7 @@ export default function EventsPage() {
             </div>
           </div>
         </section>
+        
 
         {/* Gallery Section */}
         <section id="gallery" className="py-20 bg-muted">
