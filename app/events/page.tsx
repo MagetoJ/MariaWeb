@@ -92,6 +92,7 @@ const galleryImages = [
 export default function EventsPage() {
   const [index, setIndex] = useState(0)
 
+  
   // Auto-rotate carousel every 5s
   useEffect(() => {
     const timer = setInterval(() => {
