@@ -279,6 +279,7 @@ export default function EventsPage() {
             </div>
           </div>
         </section>
+        
 
         {/* Event Organiser Section */}
         <section id="organiser" className="py-20 bg-background">
