@@ -31,6 +31,7 @@ const carouselEvents = [
   },
 ]
 
+
 const eventTypes = [
   {
     name: "Weddings",
