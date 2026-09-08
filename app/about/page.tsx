@@ -179,41 +179,6 @@ export default function AboutPage() {
         </section>
 
         {/* Team */}
-        <section className="py-20 bg-muted">
-          <div className="max-w-7xl mx-auto px-6">
-            <div className="text-center mb-16">
-              <h2 className="font-serif text-4xl font-bold text-foreground mb-4">Meet Our Team</h2>
-              <p className="text-lg text-muted-foreground">
-                The passionate professionals behind your exceptional dining experience
-              </p>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {team.map((member, index) => (
-                <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
-                  <div className="aspect-square overflow-hidden">
-                    <img
-                      src={member.image || "/placeholder.svg"}
-                      alt={member.name}
-                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                    />
-                  </div>
-                  <CardContent className="p-6">
-                    <h3 className="font-serif text-xl font-semibold text-foreground mb-1">{member.name}</h3>
-                    <p className="text-accent font-medium mb-3">{member.position}</p>
-                    <p className="text-muted-foreground text-sm mb-4">{member.description}</p>
-                    <div className="flex flex-wrap gap-1">
-                      {member.awards.map((award, awardIndex) => (
-                        <Badge key={awardIndex} variant="outline" className="text-xs">
-                          {award}
-                        </Badge>
-                      ))}
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </section>
       </main>
       <Footer />
     </div>
